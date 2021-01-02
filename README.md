@@ -4,6 +4,7 @@
 
 ## TODO
 * Make a personal website.
+  * Need some styling
 * PomodoroTimer
 * Some data visualization
 * And more?
