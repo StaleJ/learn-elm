@@ -3,6 +3,7 @@ module PersonalPage exposing (..)
 import Html exposing (..)
 import Html.Attributes exposing (..)
 
+view : a -> Html msg
 view model = 
     div [ class "jumbotron"]
         [h1 [style "height" "90px" , style "width" "100%", style "color" "blue", style "display" "flex"] [text "Ståle Jacobsen"]
