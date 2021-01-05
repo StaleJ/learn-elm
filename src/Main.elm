@@ -1,11 +1,12 @@
-module PersonalPage exposing (..)
+module Main exposing (..)
 
+import Browser
 import Html exposing (..)
 import Html.Attributes exposing (..)
 
 
-view : a -> Html msg
-view model =
+init : a -> Html msg
+init model =
     div [ class "jumbotron" ]
         [ h1
             [ style "height" "90px"
@@ -25,4 +26,4 @@ view model =
 
 main : Html msg
 main =
-    view "website"
+    Browser.sandbox { init = init }
